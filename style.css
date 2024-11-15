@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(12, 11, 11);
+}
+.logo{
+    height: 70px;
+    width: 90px;
+    background-image: url(Mastercard_logo-removebg-preview.png);
+    background-size: cover;  
+}
+.heading{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.heading pre{
+    font-weight: 100;
+    font-size: 45px; 
+}
+.outerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vh means viewport height so it's in the center of the screen  */
+    min-height: 60vh;  
+}
+.innerContainer{
+    background-color: rgb(255, 210, 151);
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 80vh;
+}
+form{
+    margin: 1rem 0 1rem 0; 
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+}
+form input{
+    border: 1px solid rgb(152, 152, 152);
+    font-weight: 300;
+    font-size: 1.7rem;
+    padding-left: 1rem ;
+    height: 3rem;
+    margin-top: 7px;
+}
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}.dropDown p{
+    font-size: 1.5rem;
+}
+.selectContainer{
+    display: flex;
+    width: 10.5rem;
+    justify-content: space-evenly;
+    border: 1px solid rgb(152, 152, 152);
+    background-color:white ;
+    margin-top:2px ;
+    border-radius: 0.3rem;
+
+}
+.selectContainer select{
+    width: 90px;
+    font-size: 1.4rem;
+}
+.innerContainer img{
+    max-width: 3rem;
+}
+.message{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+button{
+    margin-top: 20px;
+    height: 3rem;
+    background-color: rgb(247, 66, 66);
+    color: aliceblue;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 7px;
+}
+form input:hover{
+    border: 3px solid chocolate ;
+}
+button:hover{
+    border: 3.5px solid chocolate ;
+}
+
+

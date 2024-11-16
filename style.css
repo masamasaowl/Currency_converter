@@ -14,9 +14,9 @@ body{
     background-color: rgb(12, 11, 11);
 }
 .logo{
-    height: 70px;
-    width: 90px;
-    background-image: url(Mastercard_logo-removebg-preview.png);
+    height: 120px;
+    width: 110px;
+    background-image: url(75505752a116f16706471e2a635b7a42-removebg-preview.png);
     background-size: cover;  
 }
 .heading{
@@ -29,6 +29,11 @@ body{
 .heading pre{
     font-weight: 100;
     font-size: 45px; 
+}
+.heading i{
+    font-size: 1rem;
+
+    
 }
 .outerContainer{
     display: flex;
@@ -87,10 +92,15 @@ form input{
 .innerContainer img{
     max-width: 3rem;
 }
+.exchangeButton i{
+    margin-top: 1.8rem;
+    font-size: 1.5rem;
+    
+}
 .message{
     margin-top: 20px;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 button{
     margin-top: 20px;
@@ -106,6 +116,15 @@ form input:hover{
 }
 button:hover{
     border: 3.5px solid chocolate ;
+}
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(12, 11, 11);
+    color: white;
 }
 
 

@@ -13,7 +13,7 @@
     </div>
 
     <div class="heading">
-        <pre>Mastercard Currency 
+        <pre>Masamasa<i class="fa-regular fa-copyright"></i> Currency 
 Converter Calculator</pre>
     </div>
     <div class="outerContainer">
@@ -23,7 +23,7 @@ Converter Calculator</pre>
                 <div class="amount">
                     <p>Please Enter the Amount you wish to convert</p>
                 </div>
-                <input value="100" type="text">
+                <input value="1" type="text">
         
                 <!-- we create two dropdowns -->
                 <div class="dropDown">
@@ -36,20 +36,15 @@ Converter Calculator</pre>
         
                         <!-- the dropdown -->
                         <select name="From" id="">
-                            <!-- selected selects the option as default -->
-                            <option value="" selected>INR</option>
-                            <option value="">USD</option>
-                            <option value="">EUR</option>
-                            <option value="">JPY</option>
-                            <option value="">CNY</option>
-                            <option value="">AED</option>
-                            <option value="">RUB</option>
-                        </select>
+                            <!-- here all the options appear after appending in JS -->
+
+                            <!-- the selected attribute is used to set the option as default  -->
+                            </select>
                         </div> 
                     </div>
         
                     <!-- The exhange button -->
-                    <div class="excangeButton">
+                    <div class="exchangeButton">
                         <i class="fa-solid fa-arrow-right-arrow-left"></i>
                     </div>
         
@@ -59,22 +54,19 @@ Converter Calculator</pre>
                         <div class="selectContainer">
                             <img src="https://flagsapi.com/NP/flat/64.png" alt="Flag">
                         <select name="To" id="">
-                            <option value="">INR</option>
-                            <option value="">USD</option>
-                            <option value="">EUR</option>
-                            <option value="" selected>JPY</option>
-                            <option value="">CNY</option>
-                            <option value="">AED</option>
-                            <option value="">RUB</option>
+
                         </select>
                         </div>
                     </div>
                 </div>
-                <div class="message">1 USD = 80 INR</div>
+                <div class="message">1 INR = 1.85331519 JPY</div>
                 <button>Convert</button>
             </form> 
         </div>
     </div>
+    <footer>
+        <p>Created with <i class="fa-solid fa-heart"></i> & kind help of Shraddha ma'am</p>
+    </footer>
 
     <!-- The JS -->
     <script src="countries.js "></script>
